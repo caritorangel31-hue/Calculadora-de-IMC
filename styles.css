@@ -1,0 +1,56 @@
+/*Apariencia general */
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+    background: #eae7e0;
+    color: #222
+}
+
+
+.contenedor {
+    width: 100%;
+    max-width: 420px;
+    padding: 28px;
+    background: paleturquoise;
+    border-radius: 12px;
+}
+
+
+label {
+display: block;
+margin-top: 16px;
+margin-bottom: 6px;
+}
+
+input, button { 
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    border-radius: 6px;
+}
+
+input { border: 1px solid aquamarine; }
+
+
+button {
+    margin-top: 20px;
+    border: 0;
+    background: #252525;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover { background: #444;}
+
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
